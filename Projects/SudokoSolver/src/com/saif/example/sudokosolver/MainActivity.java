@@ -119,6 +119,19 @@ public class MainActivity extends Activity implements OnClickListener {
 		et[7][6] = (EditText) findViewById(R.id.et76);
 		et[7][7] = (EditText) findViewById(R.id.et77);
 		et[7][8] = (EditText) findViewById(R.id.et78);
+		package com.saif.example.sudokosolver;
+
+import android.app.Activity;
+import android.app.Dialog;
+import android.content.res.Resources.NotFoundException;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 		et[8][0] = (EditText) findViewById(R.id.et80);
 		et[8][1] = (EditText) findViewById(R.id.et81);
